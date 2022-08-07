@@ -107,7 +107,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                             Swal.fire({
                               title: 'Mau apa?',
                               input: 'text',
-                              inputPlaceholder: '...',
+                              inputPlaceholder: 'Silahkan diisi',
                               showCancelButton: false,
                               inputValidator: (value) => {
                                 if (!value) {
